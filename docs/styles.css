@@ -163,6 +163,22 @@ section#about-me .image {
     text-align: right;
 }
 
+section#about-me .text a{
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #307983;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+section#about-me .text a:hover{
+    background-color: #3df8a7;
+    transform: scale(1.05);
+}
 /* Style des images dans la section À propos */
 section#about-me img {
     max-width: 100%;
