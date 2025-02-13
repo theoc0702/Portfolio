@@ -1,4 +1,14 @@
-/* Reset du style body pour la page réalisation */  
+/* Reset du style body pour la page réalisation */
+footer {
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+    color: #666;
+}
+
 body {
     height: auto;
     min-height: 100vh;
