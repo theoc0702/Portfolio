@@ -9,6 +9,18 @@ footer {
     color: #666;
 }
 
+body.realisation footer {
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
 body {
     height: auto;
     min-height: 100vh;
